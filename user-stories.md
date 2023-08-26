@@ -10,6 +10,15 @@ I want to have the option to see my concepts in different views so that i can ma
 
 I want to be able to easily undo changes i've done so that i don't have to redo them manually.
 
-I want to add a new concept model to my workspace without having to start over.
+I want to add a new conceptual model to my workspace without having to start over.
 
 I have a hard time tracking which concept is which so i'd like to see concepts from different vocabularies with different colors so that i can distinguish them easily.
+
+I have looked up multiple vocabularies and I want to create a subset of their concepts for my own use case.
+
+I want to be able to create an application profile from existing vocabularies while being able to:
+
+- select only a couple of concepts I like from one vocabulary
+- and remove only a couple of concepts I don't need from another vocabulary.
+
+I have an RDF vocabulary and I want to modify it for my own use case.
