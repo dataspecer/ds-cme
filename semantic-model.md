@@ -1,7 +1,5 @@
 # Semantic model - poznamky
 
-Pred poznamkami k nove navrhnutym tridam musim zminit, ze se mi porad nezda, ze by to mela byt nejaka velka zmena z meho pohledu.
-
 Vidim, ze architektonicky pohled na vec je porad stejny, ve smyslu ze mame adapter/model/... na cteni trid/asociaci/relationshipu/... a vypada to, ze hlavni flow by mela byt ve stylu:
 
 1. musim vedet, co chci
@@ -21,8 +19,6 @@ Model/Adapter v tuhle chvili funguje jako nejaka gateway do databaze/rdf souboru
 - jestli jakeho je zdroj typu,
 
 tohle vsechno je mimo spravu toho modelu/adapteru a je na vyvojari, aby si tohle zjistil. Vyvojar musi vedet,
-
-_Pro me tahle zmena interfacu nema vlastne zadny prinos._
 
 Bude se muset rozhodnout, jestli byznys logiku bude dodavat resourcum Model/Adapter, nebo jeslti ji budou mit zdroje samy.
 
