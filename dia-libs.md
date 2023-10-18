@@ -7,6 +7,30 @@ No jako urcite by bylo lepsi, kdybych si nejdriv sepsal ty pozadavky a pak az vy
 
 Pri dalsim googleni jsem nasel porovnani js knihoven, [tady](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_charting_libraries), to je ale jen pro charting, tak nic :-(.
 
+## Pozadavky
+
+Typove UML diagram trid
+
+- uvnitr krabicky tridy (uzly)
+  - nazev tridy
+  - atributy
+    - jmeno
+    - typ
+    - kardinalita
+  - barvy
+  - mozna asociace a atributy
+- hrany
+  - labely na obou stranach
+  - kardinalita na obou stranach
+  - label uprostred
+  - barvy
+- prvotni layout
+- moznost presunout krabicky a hrany
+- moznost hybat s hranami
+- nice-to-have: hrany mezi tridami byt pravouhle, moznost s nimi hybat
+- asociace zobrazene jenom jako hrany
+- asociace muzou mit skryte hrany, mozna zobrazene u tridy pred natazenim na platno
+
 ## JointJS
 
 - hezke featury, jako integrace s Reactem, jsou dostupne v placene verzi

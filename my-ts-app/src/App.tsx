@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import { ProjectStorm } from "./projectstorm/main";
 import VisNetwork from "./visjs";
 import { Joint } from "./joint";
+import { ReactFlowPage } from "./reactflow/react-flow";
 
 const Layout = () => {
   return (
@@ -14,6 +15,9 @@ const Layout = () => {
           </li>
           <li>
             <Link to="/jointjs">JointJS</Link>
+          </li>
+          <li>
+            <Link to="/reactflow">React Flow</Link>
           </li>
           <li>
             <Link to="/storm">Project Storm</Link>{" "}
@@ -33,6 +37,7 @@ const Layout = () => {
               (docs)
             </a>{" "}
           </li>
+
           <li>
             Apollon
             <a
@@ -43,8 +48,8 @@ const Layout = () => {
             </a>
           </li>
         </ul>
-        <Outlet />
       </nav>
+      <Outlet />
     </>
   );
 };
@@ -187,12 +192,13 @@ const Home = () => {
 const App = () => {
   return (
     <>
-      <div className="App text-lg">
+      <div className="App text-lg w-full h-full">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route path="home" element={<Home />} />
               <Route path="storm" element={<ProjectStorm />} />
+              <Route path="reactflow" element={<ReactFlowPage />} />
               <Route path="visjs" element={<VisNetwork />} />
               <Route path="jointjs" element={<Joint />} />
             </Route>
